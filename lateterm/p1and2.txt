@@ -1,0 +1,18 @@
+JUST IN CASE YOU CANT SEE MY ANSWERS IN THE PDF!!
+
+(1)
+There are a few fundamental differences:
+
+(1) Library functions are linked with the users written code into a single process, which have the same privileges. System calls however make special calls from the users program, to the kernel, which can access privileges if necessary.
+
+[EXAMPLE] System calls acts as entry point to OS kernel, to accomplish things like changing system characteristics such as date/time, creating sockets and utilizing network protocols, or interacting with hardware using signals.
+
+(2) Library functions mostly do not have to worry about permissions as they are running with the processes in the user space on memory, but system calls work in the kernel space, therefor requiring an interrupt routines and jumps to get to that space. Since system calls have access to everything in the system, there is more control needed under the hood to make sure the system call is correctly handling permissions, for example. correctly. Due to these two fundamental differences, library functions are FASTER than system calls.
+
+
+
+
+
+(2)
+--w-r-----
+(240)

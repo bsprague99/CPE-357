@@ -1,0 +1,28 @@
+Brenden Sprague
+baspragu
+
+Thanks for a fun quarter Professor Nico. In this tough year, your morning 
+sarcasm has brought me joy. If there's one thing I learned, it's to never 
+code while people are watching! On a more serious note, I hope you can
+ bear witness to the improvements I've made throughout the quarter. I 
+will admit that hencode and mytar were a steep learning experience, but 
+I feel that I was really able to shine on mytalk (favorite project i've done). 
+I wish I had more time before Friday (...5 hours from now…) to polish up 
+mush2, but I am very drained. For pete’s sake, my car broke down on 
+Sunday 30 min out from CalPoly after a 3+ hour drive, and I had to get it 
+towed. Been a whole ordeal but I digress. I have plans to make the shell a
+ little more than minimally useful over the summer, as well as to expand 
+mytalk, so I hope I can reach out here and there. Thank you Professor for
+ all the time you’ve given me in office hours...hope you don't forget the 
+BMW flag behind me!
+
+Mush2 stuff while my brain is Mush:
+
+Using ^C resets the shell
+Using ^D will exit the shell
+
+I'm missing a small piece of logic for the pipe direction
+Also need to add the check for redirection and open() the file
+
+Commands exec as expected though!
+

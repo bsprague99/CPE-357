@@ -1,0 +1,10 @@
+baspragu
+
+Had to use a late day as you can see because I got strep throat and a cough.
+Couldnt get out of bed Friday. Sorry you had to see that seg fault in hdecode..
+Im not sure why my node A is coming in as garbage. I also know that my hencode
+is super close, just had some endianess, as well as my max char in the
+header needed to have a - 1. More so than sickness, htable was kicking my 
+butt, BUT I was able to pass all test cases on your end with my htable so
+hopefully that counts for something. Happy grading
+

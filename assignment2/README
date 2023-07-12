@@ -1,0 +1,10 @@
+baspragu
+
+going with the tree struct was def way harder that the hash table.
+For some reason my tree is being passed in NULL. I am pretty certain
+that the tree is forming correctly, minus the first node being null,
+but i would love to come to office hours to bust this assignment through
+the rest of the way. Time to study for C quiz!
+
+Your code was used for the read_word function. Wasnt sure where to cite that.
+
